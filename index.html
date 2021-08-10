@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <title>W3.CSS Template</title>
@@ -91,6 +92,9 @@ body, html {height: 100%}
 </html>
 
 <center><canvas id="gc" width="400" height="400"></canvas></center>
+=======
+<canvas id="gc" width="400" height="400"></canvas>
+>>>>>>> 8e5a399b5c1c02e30d755323c8d5460a2621a921
 <script>
 window.onload=function() {
     canv=document.getElementById("gc");
@@ -119,7 +123,11 @@ function game() {
     if(py>tc-1) {
         py= 0;
     }
+<<<<<<< HEAD
     ctx.fillStyle="pink";
+=======
+    ctx.fillStyle="black";
+>>>>>>> 8e5a399b5c1c02e30d755323c8d5460a2621a921
     ctx.fillRect(0,0,canv.width,canv.height);
  
     ctx.fillStyle="lime";
@@ -139,7 +147,11 @@ function game() {
         ax=Math.floor(Math.random()*tc);
         ay=Math.floor(Math.random()*tc);
     }
+<<<<<<< HEAD
     ctx.fillStyle="orange";
+=======
+    ctx.fillStyle="red";
+>>>>>>> 8e5a399b5c1c02e30d755323c8d5460a2621a921
     ctx.fillRect(ax*gs,ay*gs,gs-2,gs-2);
 }
 function keyPush(evt) {
@@ -159,4 +171,7 @@ function keyPush(evt) {
     }
 }
 </script>
+<<<<<<< HEAD
 </html>
+=======
+>>>>>>> 8e5a399b5c1c02e30d755323c8d5460a2621a921

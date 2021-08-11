@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Snake Game</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -14,6 +14,12 @@ body, html {height: 100%}
   min-height: 100%;
   background-position: center;
   background-size: cover;
+}
+body{
+    background-color: black;
+}
+h1 {
+  color:darkred;
 }
 
 </style>
@@ -39,7 +45,7 @@ body, html {height: 100%}
   <div class="w3-modal-content w3-animate-zoom">
     <div class="w3-container w3-black w3-display-container">
       <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
-      <h1>SimplyGame</h1>
+      <h1 class="demo">SimplyGame</h1>
     </div>
     <div class="w3-container">
       <h5>Snake Game<b>$2.50</b></h5>
@@ -47,23 +53,11 @@ body, html {height: 100%}
       <h5>Other Game<b>$1.00</b></h5>
     </div>
     <div class="w3-container w3-black">
-      <h1>Main Courses</h1>
+      
     </div>
-    <div class="w3-container">
-      <h5>Grilled Fish and Potatoes <b>$8.50</b></h5>
-      <h5>Italian Pizza <b>$5.50</b></h5>
-      <h5>Veggie Pasta <b>$4.00</b></h5>
-      <h5>Chicken and Potatoes <b>$6.50</b></h5>
-      <h5>Deluxe Burger <b>$5.00</b></h5>
-    </div>
+    
     <div class="w3-container w3-black">
-      <h1>Desserts</h1>
-    </div>
-    <div class="w3-container">
-      <h5>Fruit Salad <b>$2.50</b></h5>
-      <h5>Ice cream <b>$2.00</b></h5>
-      <h5>Chocolate Cake <b>$4.00</b></h5>
-      <h5>Cheese <b>$5.50</b></h5>
+      
     </div>
   </div>
 </div>
@@ -76,11 +70,11 @@ body, html {height: 100%}
       <h1>Contact</h1>
     </div>
     <div class="w3-container">
-      <p>Reserve a table, ask for today's special or just send us a message:</p>
+      <p>Please send us a message</p>
       <form action="/action_page.php" target="_blank">
         <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="phone number" required name=""></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name=""></p>
         <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
         <p><button class="w3-button" type="submit">SEND MESSAGE</button></p>
       </form>
